@@ -1,0 +1,136 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .menu-list,
+section .frase-intro,
+form button,
+input, 
+textarea {
+    font-family: 'Sen', sans-serif;
+    font-weight: normal;
+}
+
+header .menu-list a:hover {
+    color: #eaf205;
+}
+
+header { 
+    padding: 16px;
+    background-color: #463f42;
+    color: #f5efeb;
+}
+
+header nav li { 
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a { 
+    color: #f5efeb;
+    text-decoration: none;
+}
+
+.container { 
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .frase-intro { 
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.std-logo img { 
+    max-width: 62px;
+}
+
+#contact .container { 
+    display: block;
+    color: #463f42;
+    margin-left: 50px;
+}
+
+.social-links img { 
+    max-width: 24px;
+}
+
+.contact-list { 
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+form textarea { 
+    resize: none;
+    height: 120px;
+}
+
+
+#contact { 
+    padding: 30px;
+    margin-left: 550px;
+    margin-right: 200px;
+}
+
+#contact .speak h1 {
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+#contact .social-links h1 {
+    margin-left: 110px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#contact .social-links .social-logos {
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+form button {
+    background-color: #eaf205;
+    color: #463f42;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ecf06e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #eaf205;
+}
+
+.social-logos {
+    cursor: pointer;
+}
+
+footer { 
+    background-color: #fff;
+    color: #463f42;
+    padding: 16px;
+    font-size: 10px;
+    font-weight: normal;
+}
